@@ -6,7 +6,6 @@ type OffersListProps = {
   query: string;
 };
 
-// Запрос к ИИ: «отфильтруй список по строке поиска, чтобы фильтр пересчитывался при изменении пропсов».
 // Код работает - на экране всё правильно. Но линтер React 19 ругается: react-hooks/set-state-in-effect.
 export function OffersList({ offers, query }: OffersListProps) {
   const [visibleOffers, setVisibleOffers] = useState<Offer[]>([]);

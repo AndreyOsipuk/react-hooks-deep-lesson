@@ -10,7 +10,6 @@ export const VISIT_DELAY = 1000;
 
 // Требование аналитиков: «просмотр засчитывается, если пользователь пробыл на товаре 1 секунду.
 // Событие отправляется один раз на товар, и в нём - число товаров в корзине НА МОМЕНТ ОТПРАВКИ».
-// ИИ-ассистент написал так. Линтер доволен: все зависимости на месте.
 export function ProductPage({ productId, cartCount, logVisit }: ProductPageProps) {
   useEffect(() => {
     const timer = setTimeout(() => {

@@ -8,6 +8,7 @@
 
 | # | Задача | Где | Ссылка |
 |---|--------|-----|--------|
+| 0 | **Головоломки на хуки**: 18 коротких примеров «что выведется?» + 2 практики | урок | [открыть](https://stackblitz.com/github/AndreyOsipuk/react-hooks-deep-lesson/tree/main/tasks/puzzles?file=README.md) |
 | 1 | Снимок рендера | урок | [открыть](https://stackblitz.com/github/AndreyOsipuk/react-hooks-deep-lesson/tree/main/tasks/01-snapshot?file=README.md) |
 | 2 | Лишний рендер, которого не видно глазами | урок | [открыть](https://stackblitz.com/github/AndreyOsipuk/react-hooks-deep-lesson/tree/main/tasks/02-derived-state?file=README.md) |
 | 3 | Гонка запросов и «проверка на демонтирование» | урок | [открыть](https://stackblitz.com/github/AndreyOsipuk/react-hooks-deep-lesson/tree/main/tasks/03-race?file=README.md) |
@@ -19,7 +20,7 @@
 
 ## Как работать
 
-1. Откройте ссылку и подождите около минуты: StackBlitz установит зависимости и запустит тесты в терминале внизу.
+1. Откройте ссылку и подождите около минуты: StackBlitz установит зависимости и запустит тесты в терминале внизу (в головоломках вместо тестов откроется превью).
 2. Условие задачи - в `README.md` (откроется первым). Код - в папке `src`.
 3. Сохраняете файл (Ctrl+S / Cmd+S) - тесты перезапускаются сами.
 4. Чтобы посмотреть демо в браузере: нажмите **+** справа от вкладки Terminal и выполните `npm run dev`. Справа откроется превью.

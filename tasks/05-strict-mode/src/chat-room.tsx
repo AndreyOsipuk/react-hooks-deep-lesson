@@ -5,7 +5,6 @@ type ChatRoomProps = {
   roomId: string;
 };
 
-// Запрос к ИИ: «подключись к комнате чата при открытии и показывай входящие сообщения».
 // В main.tsx приложение обёрнуто в StrictMode.
 export function ChatRoom({ roomId }: ChatRoomProps) {
   const [messages, setMessages] = useState<string[]>([]);

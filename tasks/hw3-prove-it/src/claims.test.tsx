@@ -3,7 +3,7 @@
 // Если утверждение верное - тест его подтверждает, если неверное - опровергает.
 // В комментарии над тестом: «верно» или «неверно» и одно предложение - почему.
 //
-// Можно пользоваться: render, renderHook, act, fireEvent, screen, vi.fn(), StrictMode, Profiler.
+// Можно пользоваться любыми средствами Vitest, React и React Testing Library.
 // Нельзя: проверять «на глаз» через console.log - только expect.
 import { describe, it } from 'vitest';
 

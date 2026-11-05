@@ -1,0 +1,15 @@
+body { margin: 0; font-family: system-ui, sans-serif; font-size: 16px; }
+.playground { display: grid; grid-template-rows: auto auto 1fr; min-height: 100vh; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; padding: 10px 16px; background: #f1f3f5; border-bottom: 1px solid #ddd; }
+.toolbar select { font-size: 16px; padding: 4px; max-width: 100%; }
+.toolbar .file { color: #666; font-family: monospace; font-size: 13px; }
+.stage { padding: 16px; min-height: 120px; }
+.stage button { margin: 0 6px 6px 0; }
+.console { background: #1e1e1e; color: #ddd; font-family: monospace; font-size: 14px; padding: 8px 16px; overflow: auto; }
+.console-head { display: flex; gap: 12px; align-items: center; color: #999; margin-bottom: 6px; }
+.console ol { margin: 0; padding-left: 28px; }
+.console li { padding: 1px 0; white-space: pre-wrap; }
+.console .warn { color: #f0c674; }
+.console .error { color: #ff7b7b; }
+.error { color: #c00; }
+.slide { width: 200px; height: 120px; display: grid; place-items: center; font-size: 48px; color: #fff; border-radius: 8px; margin-bottom: 8px; }

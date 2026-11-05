@@ -7,8 +7,6 @@ type CitySearchProps = {
 
 type Status = 'idle' | 'loading' | 'success' | 'error';
 
-// Запрос к ИИ: «поиск городов с подсказками, без утечек памяти,
-// с проверкой на демонтирование компонента перед setState» (критерий Д20).
 export function CitySearch({ search = searchCities }: CitySearchProps) {
   const [query, setQuery] = useState('');
   const [cities, setCities] = useState<string[]>([]);

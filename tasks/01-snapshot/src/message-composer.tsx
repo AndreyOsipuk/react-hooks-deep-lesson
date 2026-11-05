@@ -5,7 +5,6 @@ type MessageComposerProps = {
 };
 
 // Компонент «Отправить с задержкой» - как в мессенджере: можно передумать в течение 3 секунд.
-// Код написан ИИ-ассистентом по запросу «сделай отложенную отправку со счётчиком отправленных».
 export function MessageComposer({ onSend }: MessageComposerProps) {
   const [text, setText] = useState('Привет');
   const [sentCount, setSentCount] = useState(0);
